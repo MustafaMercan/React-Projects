@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.element-hidden{
+    opacity: 0;
+    transform: translateX(-50px)
+
+}
+
+.element-visible{
+    opacity: 1;
+    transform: translateX(0px); /* Başlangıçta -50px soldan gelerek başlasın */
+    transition: opacity 0.75s ease, transform 0.5s ease;
+}
+
