@@ -10,13 +10,16 @@ export default {
         navbarColor:"rgba(244,242,237,255)",
         buttonColor:"rgba(159,158,137,255)",
         footerColor:"rgba(233,242,232,255)",
-        navBorderColor:"#CFCEB3",
-        contactColorV1:"#e7eae7"
+        navBorderColor:"#d2d8d2",
+        contactColorV1:"#e7eae7",
+        
       },
       fontFamily:{
         mainTextFont: "'Roboto', sans-serif",
         secondryTitleFont :"'EB Garamond', serif",
-        titleTextFont:"'Parisienne', cursive;"
+        titleTextFont:"'Parisienne', cursive",
+        footerTitleTextFont:"'Oooh Baby', cursive",
+        
       },
       height:{
         'screen/1.5':'75vh',

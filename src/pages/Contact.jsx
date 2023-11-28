@@ -6,36 +6,37 @@ import photo3 from '../assets/photo3.jpg'
 
 const Contact = () => {
     return (
-        <div>
-            <section className='grid grid-cols-3 grid-rows-1 gap-4 h-screen/2  bg-contactColorV1'>
+        <div className='bg-navbarColor'>
+            <section className='grid grid-cols-3 grid-rows-1 gap-4   bg-navbarColor pt-24 pb-24'>
                 <div className='flex items-center justify-center'>
-                    <img src={photo1} className='w-64 h-48 transform -rotate-10 border-8 border-white ' />
+                    <img src={photo1} className='w-72 h-72 transform -rotate-10 border-8 border-white' />
                 </div>
                 <div className='flex flex-col items-center justify-center '>
-                    <h1>Let's Connect!</h1>
-                    <h2>test@gmail.com</h2>
-                    <p className='text-center'>
-                        I can't wait to hear from you! Feel free to book a call, or fill out the form below and I will get back to you within 1-3 business days. Feel free to reach me directly instead!</p>
+                    <h1 className=' font-mainTextFont text-2xl font-semibold text-gray-600 my-4'>Sağlıklı Yaşamaya Hemen Bugün Başlayın</h1>
+                    <h2 className='font-mainTextFont text-xl  text-gray-800 font-semibold mb-6'><i>test@gmail.com</i></h2>
+                    <p className='text-black font-mainTextFont text-base font-medium text-center'>
+
+                        Küçük bir adım atarak, büyük bir fark yaratabilirsiniz. Sağlıklı yaşam tarzı, kendinizi daha iyi hissetmenize ve enerjinizi artırmanıza yardımcı olabilir. Sağlıklı yaşamaya bugün başlayın, daha sağlıklı ve mutlu bir geleceğin temellerini şimdi atın.
+                    </p>
                 </div>
                 <div className='flex items-center justify-center'>
-                    <img src={photo2} className='w-64 h-48 transform rotate-10 border-8 border-white' />
+                    <img src={photo2} className='w-72 h-72 transform rotate-10 border-8 border-white' />
                 </div>
-
             </section>
 
-            <section className='w-screen flex items-center justify-center my-24'>
+            <section className='w-screen flex items-center justify-center mt-12 pb-24'>
                 <div className='w-2/3 flex  items-center justify-evenly'>
-                    <div>
+                    <div className='flex flex-col items-start justify-center gap-4'>
                         <img src={photo3} className='w-72 rounded-3xl' />
-                        <h1 className='flex'>
+                        <h1 className='flex font-mainTextFont font-semibold'>
                             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="24" height="24" viewBox="0 0 499.000000 500.000000"
- className='mx-2'
- preserveAspectRatio="xMidYMid meet">
+                                width="24" height="24" viewBox="0 0 499.000000 500.000000"
+                                className='mx-2'
+                                preserveAspectRatio="xMidYMid meet">
 
-<g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M2324 4850 c-848 -67 -1608 -581 -1967 -1332 -29 -61 -58 -108 -65
+                                <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
+                                    fill="#000000" stroke="none">
+                                    <path d="M2324 4850 c-848 -67 -1608 -581 -1967 -1332 -29 -61 -58 -108 -65
 -108 -10 0 -12 -7 -9 -21 3 -12 -7 -53 -22 -93 -110 -279 -167 -678 -142 -981
 19 -237 78 -505 151 -690 308 -783 977 -1338 1795 -1490 336 -62 632 -56 973
 21 672 150 1272 617 1585 1232 176 346 261 698 261 1087 0 232 -16 360 -74
@@ -84,22 +85,22 @@ l-26 -124 -162 -163 -161 -162 -3 -118 -4 -117 -121 -90 c-67 -49 -136 -103
 403 c0 238 -4 411 -10 421 -14 26 -46 36 -232 72 -91 17 -171 35 -176 38 -5 3
 -39 66 -76 138 l-66 133 0 89 0 88 153 152 152 151 57 -114 c32 -63 68 -122
 80 -130z"/>
-</g>
-</svg>Based In Istanbul</h1>
-                        <h2 className='flex my-2'>
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="24" height="24" viewBox="0 0 506.000000 493.000000"
- preserveAspectRatio="xMidYMid meet"
- className='mx-2'
- >
+                                </g>
+                            </svg>Based In Istanbul</h1>
+                        <h2 className='flex my-2 font-mainTextFont font-semibold'>
+                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 506.000000 493.000000"
+                                preserveAspectRatio="xMidYMid meet"
+                                className='mx-2'
+                            >
 
-<g transform="translate(0.000000,493.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M2493 4425 c-35 -15 -63 -60 -63 -99 0 -14 12 -39 28 -56 23 -26 43
+                                <g transform="translate(0.000000,493.000000) scale(0.100000,-0.100000)"
+                                    fill="#000000" stroke="none">
+                                    <path d="M2493 4425 c-35 -15 -63 -60 -63 -99 0 -14 12 -39 28 -56 23 -26 43
 -34 136 -55 387 -87 728 -291 982 -588 196 -229 324 -482 388 -772 29 -127 34
 -138 77 -161 37 -19 65 -18 100 3 45 27 53 66 33 170 -41 222 -164 512 -305
 721 -250 367 -673 675 -1091 792 -57 16 -250 62 -253 60 0 -1 -14 -7 -32 -15z"/>
-<path d="M1086 4204 c-79 -25 -123 -59 -294 -228 -181 -178 -250 -270 -282
+                                    <path d="M1086 4204 c-79 -25 -123 -59 -294 -228 -181 -178 -250 -270 -282
 -374 -121 -391 147 -1072 668 -1702 595 -718 1573 -1256 2108 -1159 32 6 97
 29 144 51 80 39 96 52 272 232 233 237 253 270 253 416 0 144 -13 164 -330
 481 -143 143 -278 271 -300 284 -67 40 -157 59 -225 47 -101 -18 -152 -53
@@ -113,32 +114,26 @@ m172 -213 c45 -24 503 -483 526 -528 40 -80 24 -108 -179 -313 -109 -110 -176
 -217 -209 -333 -231 -174 -32 -474 52 -810 225 -527 272 -981 684 -1329 1206
 -244 367 -396 754 -396 1012 0 120 23 199 79 271 61 80 315 325 353 342 46 20
 92 18 136 -4z"/>
-<path d="M2435 3727 c-41 -41 -45 -75 -16 -124 21 -33 21 -33 126 -59 281 -67
+                                    <path d="M2435 3727 c-41 -41 -45 -75 -16 -124 21 -33 21 -33 126 -59 281 -67
 521 -250 658 -504 42 -76 69 -149 92 -240 23 -96 35 -119 66 -135 42 -22 83
 -18 117 10 37 31 43 59 27 143 -29 147 -118 341 -219 475 -104 139 -277 283
 -431 360 -78 39 -260 97 -325 104 -58 6 -60 5 -95 -30z"/>
-</g>
-</svg>
+                                </g>
+                            </svg>
 
                             05337675656</h2>
-
                     </div>
-
                     <form className='flex flex-col gap-14 items-center'>
                         <input type='text' placeholder='İsim' className='text-center w-screen/3 h-12 border-2 rounded-3xl border-gray-300' />
-                        <input type='text' placeholder='Soyisim' className=' text-center w-screen/3 h-12 border-2 rounded-3xl border-gray-300'/>
-                        <input type='text' placeholder='Email' className=' text-center w-screen/3 h-12 border-2 rounded-3xl border-gray-300'/>
-                        <input type='text' placeholder='Telefon Numarası' className=' text-center w-screen/3 h-12 border-2 rounded-3xl border-gray-300'/>
-                        
+                        <input type='text' placeholder='Soyisim' className=' text-center w-screen/3 h-12 border-2 rounded-3xl border-gray-300' />
+                        <input type='text' placeholder='Email' className=' text-center w-screen/3 h-12 border-2 rounded-3xl border-gray-300' />
+                        <input type='text' placeholder='Telefon Numarası' className=' text-center w-screen/3 h-12 border-2 rounded-3xl border-gray-300' />
+
                         <button className='text-lg bg-buttonColor py-4 w-80 my-5 rounded-2xl text-white font-mainTextFont'>
                             Start With Today
                         </button>
                     </form>
-
-
                 </div>
-
-
             </section>
 
         </div>

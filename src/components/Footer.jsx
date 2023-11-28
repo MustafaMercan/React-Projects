@@ -1,13 +1,19 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import footer1 from '../assets/footer1.jpg'
+import footer2 from '../assets/footer2.jpg'
+import footer3 from '../assets/footer3.jpg'
+import footer4 from '../assets/footer4.jpg'
+
+
 
 const Footer = () => {
   return (
     <footer className='bg-navbarColor flex items-center justify-center flex-col py-24'>
-      <section className='flex w-1/2 bg-red-500 justify-between'>
+      <section className='flex w-2/3  justify-between'>
         <div className='flex gap-4'>
-          <h1>Instagramdan Takip Edin</h1>
-          <p> -@instagramadress</p>
+          <h1 className='font-secondryTitleFont text-3xl font-medium text-gray-500'>Instagramdan Takip Edin</h1>
+          <p className='font-mainTextFont text-xl font-medium text-gray-800'> -@instagramadress</p>
         </div>
 
         <div className='flex gap-4'>
@@ -87,22 +93,43 @@ m2125 -251 c312 -88 535 -313 617 -622 l23 -85 0 -1035 0 -1035 -22 -85 c-82
             </g>
           </svg>
         </div>
+      </section >
+      <section className='w-2/3 grid grid-cols-4 grid-rows-1 gap-4'>
+        <div >
+          <img src={footer1} className='w-full aspect-square rounded-2xl' />
+        </div>
+        <div>
+          <img src={footer2} className='w-full aspect-square rounded-2xl' />
+
+        </div>
+        <div>
+          <img src={footer3} className='w-full aspect-square rounded-2xl' />
+
+        </div>
+        <div>
+          <img src={footer4} className='w-full aspect-square rounded-2xl' />
+
+        </div>
+
+
       </section>
 
-      <section className='flex w-1/2 bg-red-300 justify-evenly'>
-        <ul className='flex flex-col gap-4 my-4'>
+      <section className='flex w-2/3  justify-evenly my-6'>
+
+        <ul className='flex flex-col gap-4 my-4 font-mainTextFont font-medium text-gray-500 text-lg'>
           <li>Home</li>
           <li>About</li>
         </ul>
 
+
         <div className='text-center'>
-          <h1>Diyetisyen Mustafa</h1>
-          <h1>Nutritionist & Health Coach</h1>
-          <p>
-            Write a summary of your business here. Exercise the imagination, <br/>experimenting with talents, being creative.
+          <h1 className='font-footerTitleTextFont text-4xl text-gray-600 my-4'>Diyetisyen Mustafa</h1>
+          <h1 className=' font-mainTextFont text-2xl text-gray-600 mb-2'>Nutritionist & Health Coach</h1>
+          <p className='text-black font-mainTextFont text-sm'>
+            Write a summary of your business here. Exercise the imagination, <br />experimenting with talents, being creative.
           </p>
         </div>
-        <ul>
+        <ul className='flex flex-col gap-4 my-4 font-mainTextFont font-medium text-gray-500 text-lg'>
           <li>Services</li>
           <li>Contact</li>
         </ul>

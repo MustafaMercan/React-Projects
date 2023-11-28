@@ -37,14 +37,16 @@ const Home = () => {
     }, [])
     return (
         <div>
-            <main>
-                <section className='flex bg-navbarColor max-sm:flex-col mb-32 px-5 sm:h-screen items-center justify-between max-sm:py-12' >
-                    <figure className='bg-navbarColor'>
+            <main className='bg-navbarColor'>
+                <section className='flex bg-navbarColor max-sm:flex-col px-36 sm:h-screen items-center justify-between max-sm:py-12 ' >
+                    <figure className='bg-navbarColor w-1/2'>
                         <img className='rounded-3xl w-full' src={mainPhoto} />
                     </figure>
                     <section className='flex flex-col items-center justify-center px-12 gap-12 text-center'>
-                        <p className='text-center text-lg font-bold text-gray-500 lg:text-xl font-mainTextFont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                        <h1 className='mb-4 text-4xl font-semibold leading-none tracking-tight text-gray-900 max-lg:text-2xl'> Etiam sed varius libero, et lacinia enim. Praesent at consequat leo. Vestibulum laoreet, diam eu sollicitudin molestie, est suscipit quam </h1>
+                        <p className='text-center text-lg font-bold text-gray-500 lg:text-xl font-mainTextFont'>Sağlıklı Beslenme, Işıltılı Yaşamın Anahtarı </p>
+                        <h1 className='mb-4 text-4xl font-semibold leading-none tracking-tight text-gray-900 max-lg:text-2xl'> Sağlıklı Beslenme Yolculuğunda Size Eşlik Eden Adım Adım Uzmanlık ve Beslenme Çözümleri </h1>
+                        <p className='text-center text-lg font-bold text-gray-500 lg:text-xl font-mainTextFont'>Sağlıklı beslenme, herkesin hayatında önemli bir yere sahip olmalıdır. Ancak bu yolculuk bazen karmaşık ve yorucu olabilir. İşte tam da burada biz devreye giriyoruz! Sizi adım adım sağlıklı beslenme yolculuğunda yönlendiriyoruz. </p>
+                        
                         <button className='text-lg bg-buttonColor py-4 px-8 my-5 mx-5 rounded-2xl text-white font-mainTextFont'>
                             Start With Today
                         </button>
@@ -53,17 +55,18 @@ const Home = () => {
                 </section>
 
 
-                <section className='bg-white text-center my-12 animate-on-scroll element-hidden'>
-                    <h1 className='mb-4 text-4xl font-semibold leading-none tracking-tight text-gray-900 max-lg:text-2xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-                    <p className='text-center text-lg font-normal text-gray-500 lg:text-xl font-mainTextFont'>Etiam sed varius libero, et lacinia enim. Praesent at consequat leo. Vestibulum laoreet, diam eu sollicitudin molestie, est suscipit quam</p>
+                <section className='text-center  animate-on-scroll element-hidden mb-24'>
+                    <h1 className='mb-4 text-4xl font-semibold leading-none tracking-tight text-gray-900 max-lg:text-2xl'>Sağlıklı Beslenmeyle Gelen Güçlü Yaşam</h1>
+                    <p className='text-center text-lg font-semibold  text-gray-500  font-mainTextFont'>Sağlıklı beslenme, güçlü bir yaşamın anahtarıdır. Doğru beslenme alışkanlıkları, enerji seviyelerini artırır, zihinsel netliği destekler ve mutluluğu tetikler</p>
                 </section>
 
                 <section className=' max-lg:flex-col max-lg:items-center  flex justify-evenly my-12 animate-on-scroll element-hidden' >
-                    <img src={sectionPhotoV1} className='rounded-full max-lg:w-1/3' />
+                    <img src={sectionPhotoV1} className='rounded-full max-lg:w-1/3 aspect-square' />
                     <div className='w-1/2'>
-                        <h1 className='mb-4 text-4xl font-semibold leading-none tracking-tight text-gray-900 max-lg:text-2xl text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-                        <p className='text-center text-lg font-normal text-gray-500 lg:text-xl font-mainTextFont mt-8'>Etiam sed varius libero, et lacinia enim. Praesent at consequat leo. Vestibulum laoreet, diam eu sollicitudin molestie, est suscipit quamEtiam sed varius libero, et lacinia enim. Praesent at consequat leo. Vestibulum laoreet, diam eu sollicitudin molestie, est suscipit quam</p>
-                        <p className='text-center text-lg font-normal text-gray-500 lg:text-xl font-mainTextFont mt-4'>Etiam sed varius libero, et lacinia enim. Praesent at consequat leo. Vestibulum laoreet, diam eu sollicitudin molestie, est suscipit quamEtiam sed varius libero, et lacinia enim. Praesent at consequat leo. Vestibulum laoreet, diam eu sollicitudin molestie, est suscipit quam</p>
+                        <h1 className='mb-4 text-4xl font-semibold leading-none tracking-tight text-gray-900 max-lg:text-2xl text-center'>Doğru seçimleri yaparken size yardımcı olalım</h1>
+                        <p className='text-center font-semibold text-gray-500 text-lg font-mainTextFont mt-8'>Sağlıklı bir yaşam tarzı için doğru seçimleri yapmak, bazen kafa karıştırıcı olabilir. Beslenme, sağlık ve genel refah konusunda doğru kararları vermek, her birey için farklılık gösterebilir. Biz sizin için en iyi olanı bulmanıza yardımcı olmak için burdayız.</p>
+                        <p className='text-center font-semibold text-gray-500 text-lg font-mainTextFont mt-4'>Sağlıklı bir beslenme tarzı, kişisel ihtiyaçlarınıza uygun olmalıdır. Biz, bu noktada devreye giriyor ve size özel beslenme planınızı oluşturmak için buradayız. Hangi besinlerin bedeninizi en iyi şekilde besleyeceğini keşfetmenize yardımcı olacak bilgi ve uzmanlıkla size destek oluyoruz.</p>
+                        <p className='text-center font-semibold text-gray-500 text-lg font-mainTextFont mt-4'>Doğru seçimleri yaparken size rehberlik etmek ve en iyi kararları almanızda size destek olmak için buradayız. Sağlıklı ve mutlu bir yaşam için sizinle birlikteyiz.</p>
                         <button className='text-lg bg-buttonColor py-4 px-8 my-5 mx-5 rounded-2xl text-white'>
                             Start With Today
                         </button>
